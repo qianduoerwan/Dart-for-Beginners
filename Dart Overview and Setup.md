@@ -28,21 +28,11 @@ Flutter is a framework for building mobile, web, and desktop applications using 
 
 Source: [Dart Overview](https://dart.dev/overview)
 
-### Where Will I Learn Dart?
-
-When I start programming in Dart, I will use the tutorial on the official Dart website, the Dart tutorial on GeeksforGeeks, and a YouTube tutorial playlist to learn the basics and find coding examples.
-
-1. [Dart’s official tutorial](https://dart.dev/learn/tutorial)
-2. [GeeksforGeeks Dart tutorial](https://www.geeksforgeeks.org/dart/dart-tutorial/)
-3. [YouTube tutorial playlist](https://www.youtube.com/playlist?list=PLptHs0ZDJKt_fLp8ImPQVc1obUJKDSQL7)
-
-
-
 ## 2. Installation and Programming Environment
 
 ### Installing the Dart SDK
 
-The SDK includes the libraries and command-line tools needed to develop Dart programs. The official Dart website lists several installation methods, including downloading the SDK as a ZIP file. I used the ZIP method on Windows. The steps below describe the installation process I followed on my computer.
+The SDK includes the libraries and command-line tools needed to develop Dart programs. The official Dart website lists several installation methods, including downloading the SDK as a ZIP file. This guide demonstrates how to install the Dart SDK on Windows using a ZIP file.
 
 Official installation information: [Get the Dart SDK](https://dart.dev/get-dart)
 
@@ -66,17 +56,17 @@ Open PowerShell or a terminal in VS Code and run:
 dart --version
 ```
 
-My installation reported Dart SDK version **3.13.4 (stable)**. Your version may be different.
+The terminal should display the installed Dart SDK version. The exact version number may vary depending on the release you installed.
 
 If the terminal says that `dart` is not recognized, check that the Path entry points to the folder containing `dart.exe`, then close and reopen the terminal.
 
 ### Choosing and Setting Up Visual Studio Code
 
-The official Dart website presents DartPad as an easy way to learn Dart syntax and experiment with the language without downloading any software. DartPad runs directly in a web browser. Dart also supports development in editors such as Visual Studio Code.
+The official Dart website presents DartPad as an easy way to learn Dart syntax and experiment with the language without downloading any software. DartPad runs directly in a web browser.
+
+Dart also supports development in editors such as Visual Studio Code (VS Code). This tutorial uses VS Code because it provides Dart language support through an extension and allows programs to be edited and run locally.
 
 Sources: [Dart Development Tools](https://dart.dev/tools), [DartPad](https://dart.dev/tools/dartpad)
-
-I chose Visual Studio Code because it was already installed on my computer, and I was relatively familiar with it. I also knew that VS Code supports Dart through an extension, so it was a convenient choice for me.
 
 To set up VS Code for Dart:
 
@@ -95,7 +85,7 @@ Source: [Visual Studio Code — Dart Documentation](https://dart.dev/tools/vs-co
 
 ### Hello World Example
 
-Example source code: [Hello_World.dart](https://github.com/qianduoerwan/Dart-CS330/blob/main/Hello_World.dart)
+Example source code: [hello_world.dart](hello_world.dart)
 
 In VS Code, open your project folder and create a file named `main.dart`. Add the following code and save the file:
 
@@ -109,26 +99,33 @@ The `main()` function is where the program starts. The `void` keyword means that
 
 ### How to Run the Program
 
-Open **Terminal → New Terminal** in VS Code. Make sure the terminal is in the folder containing `main.dart`.
+Open **Terminal → New Terminal** in VS Code. Make sure the terminal is in the folder containing `hello_world.dart`.
 
-On my computer, the terminal prompt looks like this: `PS S:\CS 330\PLP>`
+For example, if the file is saved in `C:\dart-projects`, the PowerShell prompt might look like this:
 
-This prompt shows that the terminal is already in my project folder. You do not need to type the prompt yourself.
+```powershell
+PS C:\dart-projects>
+```
+
+This prompt shows the current working directory. You do not need to type the prompt yourself.
 
 Run the program with:
 
 ```powershell
-dart run main.dart
+dart run hello_world.dart
 ```
 
 The `dart run` command runs the Dart file you specify. This example does not require any additional packages.
 
-The expected output is: `hello world`
+The expected output is:
+
+```text
+Hello, world!
+```
 
 After changing the code, save the file and run the same command again to see the updated output.
 
 Source: [Dart Run — Dart Documentation](https://dart.dev/tools/dart-run)
-
 
 
 ## 4. Comments in Dart
@@ -210,9 +207,9 @@ Source: [Comments — Dart Documentation](https://dart.dev/language/comments)
 12. [Dart Run — Dart Documentation](https://dart.dev/tools/dart-run)
 13. [Comments — Dart Documentation](https://dart.dev/language/comments)
 
-### Learning Resources
+### Additional Learning Resources
 
-I plan to use the following resources to learn Dart and find coding examples:
+The following resources provide additional explanations, examples, and practice materials for learning Dart:
 
 1. [Dart’s Official Tutorial](https://dart.dev/learn/tutorial)
 2. [GeeksforGeeks Dart Tutorial](https://www.geeksforgeeks.org/dart/dart-tutorial/)

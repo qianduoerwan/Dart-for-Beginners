@@ -39,9 +39,9 @@ Official installation information: [Get the Dart SDK](https://dart.dev/get-dart)
 Follow these steps to install it:
 
 1. Open the [Dart SDK download page](https://dart.dev/get-dart/archive).
-2. Select the stable release, choose Windows, and select the architecture that matches your computer. I used x64.
+2. Select the stable release, choose Windows, and select the architecture that matches your computer (for example, x64).
 3. Download and extract the ZIP file.
-4. Find the `bin` folder inside the extracted `dart-sdk` folder. On my computer, the path is: `S:\dartsdk-windows-x64-release\dart-sdk\bin`
+4. Find the `bin` folder inside the extracted `dart-sdk` folder. For example, if the SDK is extracted to `C:\dart-sdk`, the folder to add to Path is `C:\dart-sdk\bin`.
 
 5. In Windows Search, search for **Edit environment variables for your account**.
 6. Under **User variables**, select **Path**, click **Edit**, and then click **New**.
@@ -87,7 +87,8 @@ Source: [Visual Studio Code — Dart Documentation](https://dart.dev/tools/vs-co
 
 Example source code: [hello_world.dart](hello_world.dart)
 
-In VS Code, open your project folder and create a file named `main.dart`. Add the following code and save the file:
+In VS Code, open your project folder and create a file named `hello_world.dart`. Add the following code and save the file:
+
 
 ```dart
 void main() {
@@ -170,18 +171,23 @@ Dart also allows multi-line comments to be nested inside other multi-line commen
 
 Documentation comments describe functions, classes, and other parts of a program. They start with `///` or use the block form `/** ... */`.
 
-Place a documentation comment immediately before the item it describes:
+Place a documentation comment immediately before the item it describes.
+
+For example, using `///`:
 
 ```dart
-/// Display the greeting.
-/// Display the greeting.
-/// Display the greeting.
+/// Displays a greeting message.
+void main() {
+  print('Hello, world!');
+}
+```
 
+Alternatively, using `/** ... */`:
+
+```dart
 /**
- * Display the greeting.
- * Display the greeting.
+ * Displays a greeting message.
  */
-
 void main() {
   print('Hello, world!');
 }

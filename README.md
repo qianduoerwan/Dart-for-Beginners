@@ -7,11 +7,11 @@ This tutorial introduces Dart step by step, beginning with its history and devel
 ## Tutorial Chapters
 
 1. [Dart Overview and Setup](Dart%20Overview%20and%20Setup.md)
-2. Data Types and Syntax
-3. Control Flow
-4. Naming, Scope, and Bindings
-5. Functions and Parameters
-6. Classes and Objects
+2. Data Types and Syntax *(Coming Soon)*
+3. Control Flow *(Coming Soon)*
+4. Naming, Scope, and Bindings *(Coming Soon)*
+5. Functions and Parameters *(Coming Soon)*
+6. Classes and Objects *(Coming Soon)*
 
 More chapters will be added as the guide develops.
 

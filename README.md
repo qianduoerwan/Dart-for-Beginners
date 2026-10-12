@@ -8,7 +8,7 @@ This tutorial introduces Dart step by step, beginning with its history and devel
 ## Tutorial Chapters
 
 1. [Dart Overview and Setup](Dart%20Overview%20and%20Setup.md)
-2. Data Types and Syntax *(Coming Soon)*
+2. [Data Types and Naming Conventions](Data%20Types%20and%20Naming%20Conventions.md)
 3. Control Flow *(Coming Soon)*
 4. Naming, Scope, and Bindings *(Coming Soon)*
 5. Functions and Parameters *(Coming Soon)*
@@ -19,6 +19,7 @@ More chapters will be added as the guide develops.
 ## Example Code
 
 - [Hello World](hello_world.dart)
+- [Data Types and Naming Conventions](data_types.dart)
 
 
 ## Getting Started

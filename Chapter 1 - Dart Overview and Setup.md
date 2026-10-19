@@ -113,7 +113,7 @@ This prompt shows the current working directory. You do not need to type the pro
 Run the program with:
 
 ```powershell
-dart run Chapter 1 - hello_world.dart
+dart run "Chapter 1 - hello_world.dart"
 ```
 
 The `dart run` command runs the Dart file you specify. This example does not require any additional packages.

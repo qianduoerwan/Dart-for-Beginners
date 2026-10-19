@@ -486,7 +486,7 @@ dart format "Chapter 2 - data_types.dart"
 dart analyze "Chapter 2 - data_types.dart"
 ```
 
-If Dart is not installed yet, follow [Dart Overview and Setup](Dart%20Overview%20and%20Setup.md). For smaller examples, we can also use [DartPad](https://dartpad.dev/).
+If Dart is not installed yet, follow [Chapter 1 - Dart Overview and Setup](Chapter%201%20-%20Dart%20Overview%20and%20Setup.md). For smaller examples, we can also use [DartPad](https://dartpad.dev/).
 
 Source: [Dart Run — Dart Documentation](https://dart.dev/tools/dart-run), [Numbers in Dart — Dart Documentation](https://dart.dev/resources/language/number-representation)
 

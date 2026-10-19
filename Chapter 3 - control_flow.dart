@@ -1,5 +1,4 @@
 void main() {
-  // Show the two boolean values
   print('=== 1. Boolean Values ===');
   {
     bool isSunny = true;
@@ -9,7 +8,6 @@ void main() {
     print('Cold: $isCold');
   }
 
-  // Show if, else if, else, and conditions with more than one part
   print('\n=== 2. Conditional Statements ===');
   {
     int temperature = 18;
@@ -18,7 +16,6 @@ void main() {
     } else {
       print('Cool day');
     }
-
     int age = 20;
     bool hasTicket = true;
     if (age >= 18 && hasTicket) {
@@ -41,8 +38,6 @@ void main() {
       print('No rain today');
     }
   }
-
-  // Show how braces keep a variable inside its block
   print('\n=== 3. Code Blocks ===');
   {
     int number = 5;
@@ -53,12 +48,9 @@ void main() {
     // print(inside) would be an error outside this block
   }
 
-  // Compare short-circuit and non-short-circuit operators
   print('\n=== 4. Short-Circuit Logic ===');
   showLogic(false);
   showLogic(true);
-
-  // Use braces to show which if an else belongs to
   print('\n=== 5. Dangling Else ===');
   {
     int x = 5;
@@ -74,7 +66,6 @@ void main() {
       print('x is not positive');
     }
   }
-
   // Show a normal switch and a labeled continue
   print('\n=== 6. Switch Statements ===');
   {
@@ -87,7 +78,6 @@ void main() {
       default:
         print('Unknown action');
     }
-
     int level = 1;
     switch (level) {
       case 1:
@@ -101,7 +91,6 @@ void main() {
     }
   }
 
-  // Show four common ways to repeat code
   print('\n=== 7. Loops ===');
   {
     for (int i = 1; i <= 3; i++) {
@@ -112,7 +101,6 @@ void main() {
     for (String fruit in fruits) {
       print('For-in: $fruit');
     }
-
     int counter = 1;
     while (counter <= 2) {
       print('While: $counter');
@@ -136,8 +124,6 @@ void main() {
       print('Loop control: $i');
     }
   }
-
-  // Show that loop and function variables stay in their own scope
   print('\n=== 8. Variable Scope ===');
   {
     for (int i = 1; i <= 2; i++) {
@@ -151,12 +137,10 @@ void main() {
   }
 }
 
-// Print when the right side of an expression runs
 bool checkRightSide() {
   print('Right side checked');
   return true;
 }
-
 // Show the difference between && and &, and between || and |
 void showLogic(bool first) {
   print('First value: $first');
@@ -166,7 +150,6 @@ void showLogic(bool first) {
   print('| result: ${first | checkRightSide()}');
 }
 
-// Show that a local variable belongs to its function
 void showFunctionScope() {
   int localValue = 100;
   print('Function value: $localValue');

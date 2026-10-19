@@ -1,4 +1,4 @@
-# Chapter 01 - Dart Overview and Setup
+# Chapter 1 - Dart Overview and Setup
 
 ## 1. History and Background
 

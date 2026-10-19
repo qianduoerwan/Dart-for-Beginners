@@ -326,12 +326,12 @@ Source: [Functions — Dart Documentation](https://dart.dev/language/functions),
 
 ## 9. Running the Example Program
 
-The complete program for this chapter is in [control_flow.dart](control_flow.dart). It contains runnable examples of all the conditions, logical operators, switch statements, and loops explained above.
+The complete program for this chapter is in [Chapter 3 - control_flow.dart](Chapter%203%20-%20control_flow.dart). It contains runnable examples of all the conditions, logical operators, switch statements, and loops explained above.
 
-To run the file, open a terminal in the folder containing `control_flow.dart` and enter:
+To run the file, open a terminal in the folder containing `Chapter 3 - control_flow.dart` and enter:
 
 ```
-dart run control_flow.dart
+dart run "Chapter 3 - control_flow.dart"
 ```
 
 For example, the Switch Statements section prints:
@@ -348,8 +348,12 @@ The full program prints the results from the other sections too. Examples of cod
 We can also check the file with:
 
 ```
-dart format control_flow.dart
-dart analyze control_flow.dart
+dart format "Chapter 3 - control_flow.dart"
+dart analyze "Chapter 3 - control_flow.dart"
+```
+
+```
+dart analyze "Chapter 3 - control_flow.dart"
 ```
 
 If you have not installed Dart yet, see [Dart Overview and Setup](Dart%20Overview%20and%20Setup.md).

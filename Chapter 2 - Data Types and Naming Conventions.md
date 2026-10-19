@@ -103,13 +103,7 @@ bool hasFinishedHomework = false;
 
 Classes use `UpperCamelCase` (such as `StudentProfile`), and files use `lowercase_with_underscores` (such as `data_types.dart`). These are **style recommendations**, not language rules. Dart can still run code that does not follow them.
 
-
-Classes use `UpperCamelCase` (such as `StudentProfile`), and files use `lowercase_with_underscores` (such as `data_types.dart`). These are **style recommendations**, not language rules. Dart can still run code that does not follow them.
-
 In this tutorial, file names include chapter numbers to keep the files organized on GitHub. Since these names contain spaces, we use quotation marks around them when running commands in the terminal.
-
-### Keywords and Reserved Words
-
 
 ### Keywords and Reserved Words
 
@@ -249,7 +243,8 @@ tickets['child'] = 1;
 print(tickets); // {adult: 2, child: 1}
 ```
 
-The two conditions are true and false because 7 > 2 is true and 7 == 2 is false. Dart also has other operators, including assignment, type tests, null-aware operators, and bitwise operators. The [official operators page](https://dart.dev/language/operators) lists them all.
+
+The two conditions are `true` and `false` because `7 > 2` is true and `7 == 2` is false. Dart also has other operators, including assignment, type tests, null-aware operators, and bitwise operators. The [official operators page](https://dart.dev/language/operators) lists them all.
 
 Source: [Operators — Dart Documentation](https://dart.dev/language/operators), [Collections — Dart Documentation](https://dart.dev/language/collections), [String.operator * — Dart API](https://api.dart.dev/dart-core/String/operator_multiply.html)
 

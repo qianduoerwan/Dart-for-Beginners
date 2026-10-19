@@ -355,7 +355,7 @@ dart format "Chapter 3 - control_flow.dart"
 dart analyze "Chapter 3 - control_flow.dart"
 ```
 
-If you have not installed Dart yet, see [Dart Overview and Setup](Dart%20Overview%20and%20Setup.md).
+If you have not installed Dart yet, see [Chapter 1 - Dart Overview and Setup](Chapter%201%20-%20Dart%20Overview%20and%20Setup.md).
 
 Source: [Dart Run — Dart Documentation](https://dart.dev/tools/dart-run)
 

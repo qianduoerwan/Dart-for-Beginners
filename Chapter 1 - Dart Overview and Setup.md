@@ -85,7 +85,7 @@ Source: [Visual Studio Code — Dart Documentation](https://dart.dev/tools/vs-co
 
 ### Hello World Example
 
-Example source code: [hello_world.dart](hello_world.dart)
+Example source code: [Chapter 1 - hello_world.dart](Chapter%201%20-%20hello_world.dart)
 
 In VS Code, open your project folder and create a file named `hello_world.dart`. Add the following code and save the file:
 

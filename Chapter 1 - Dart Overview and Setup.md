@@ -87,7 +87,7 @@ Source: [Visual Studio Code — Dart Documentation](https://dart.dev/tools/vs-co
 
 Example source code: [Chapter 1 - hello_world.dart](Chapter%201%20-%20hello_world.dart)
 
-In VS Code, open your project folder and create a file named `hello_world.dart`. Add the following code and save the file:
+In VS Code, open your project folder and create a file named `Chapter 1 - hello_world.dart`. Add the following code and save the file:
 
 
 ```dart
@@ -100,7 +100,7 @@ The `main()` function is where the program starts. The `void` keyword means that
 
 ### How to Run the Program
 
-Open **Terminal → New Terminal** in VS Code. Make sure the terminal is in the folder containing `hello_world.dart`.
+Open **Terminal → New Terminal** in VS Code. Make sure the terminal is in the folder containing `Chapter 1 - hello_world.dart`.
 
 For example, if the file is saved in `C:\dart-projects`, the PowerShell prompt might look like this:
 
@@ -113,7 +113,7 @@ This prompt shows the current working directory. You do not need to type the pro
 Run the program with:
 
 ```powershell
-dart run hello_world.dart
+dart run Chapter 1 - hello_world.dart
 ```
 
 The `dart run` command runs the Dart file you specify. This example does not require any additional packages.

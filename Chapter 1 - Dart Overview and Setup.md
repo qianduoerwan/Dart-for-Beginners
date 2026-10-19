@@ -116,7 +116,7 @@ Run the program with:
 dart run "Chapter 1 - hello_world.dart"
 ```
 
-The `dart run` command runs the Dart file you specify. This example does not require any additional packages.
+The `dart run` command runs the Dart file you specify. The quotation marks keep the file name together because it contains spaces. This example does not require any additional packages.
 
 The expected output is:
 

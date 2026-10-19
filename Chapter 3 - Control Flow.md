@@ -349,7 +349,6 @@ We can also check the file with:
 
 ```
 dart format "Chapter 3 - control_flow.dart"
-dart analyze "Chapter 3 - control_flow.dart"
 ```
 
 ```

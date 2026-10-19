@@ -1,4 +1,4 @@
-# Data Types and Naming Conventions
+# Chapter 2 - Data Types and Naming Conventions
 
 ## 1. Basic Data Types in Dart
 

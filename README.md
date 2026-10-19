@@ -18,9 +18,9 @@ More chapters will be added as the guide develops.
 
 ## Example Code
 
-- [Hello World](hello_world.dart)
-- [Data Types and Naming Conventions](data_types.dart)
-- [Control Flow](control_flow.dart)
+- [`hello_world.dart`](hello_world.dart) — Hello World
+- [`data_types.dart`](data_types.dart) — Data Types and Naming Conventions
+- [`control_flow.dart`](control_flow.dart) — Control Flow
 
 
 

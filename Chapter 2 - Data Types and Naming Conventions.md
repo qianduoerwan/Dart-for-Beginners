@@ -457,10 +457,10 @@ Source: [Collections — Dart Documentation](https://dart.dev/language/collectio
 
 ## 12. Running the Example Program
 
-The full runnable program for this chapter is [data_types.dart](data_types.dart). Open it in VS Code and run:
+The full runnable program for this chapter is [Chapter 2 - data_types.dart](Chapter%202%20-%20data_types.dart). Open it in VS Code and run:
 
 ```
-dart run data_types.dart
+dart run "Chapter 2 - data_types.dart"
 ```
 
 For example, the program prints these lines when run locally:
@@ -479,8 +479,11 @@ Each group inside `main()` uses its own `{ }` block. This lets us reuse names su
 We can also check the code using:
 
 ```
-dart format data_types.dart
-dart analyze data_types.dart
+dart format "Chapter 2 - data_types.dart"
+```
+
+```
+dart analyze "Chapter 2 - data_types.dart"
 ```
 
 If Dart is not installed yet, follow [Dart Overview and Setup](Dart%20Overview%20and%20Setup.md). For smaller examples, we can also use [DartPad](https://dartpad.dev/).

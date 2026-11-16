@@ -11,8 +11,6 @@ This tutorial introduces Dart step by step, beginning with its history and devel
 - [Chapter 3 - Control Flow](Chapter%203%20-%20Control%20Flow.md)
 - Chapter 4 - Functions
 
-More chapters will be added as the guide develops.
-
 ## Example Code
 
 - Chapter 1 - Dart Overview and Setup - [hello_world.dart](Chapter%201%20-%20hello_world.dart)

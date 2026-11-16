@@ -9,13 +9,14 @@ This tutorial introduces Dart step by step, beginning with its history and devel
 - [Chapter 1 - Dart Overview and Setup](Chapter%201%20-%20Dart%20Overview%20and%20Setup.md)
 - [Chapter 2 - Data Types and Naming Conventions](Chapter%202%20-%20Data%20Types%20and%20Naming%20Conventions.md)
 - [Chapter 3 - Control Flow](Chapter%203%20-%20Control%20Flow.md)
-- Chapter 4 - Functions
+- [Chapter 4 - Functions](Chapter%204%20-%20Functions.md)
 
 ## Example Code
 
 - Chapter 1 - Dart Overview and Setup - [hello_world.dart](Chapter%201%20-%20hello_world.dart)
 - Chapter 2 - Data Types and Naming Conventions - [data_types.dart](Chapter%202%20-%20data_types.dart)
 - Chapter 3 - Control Flow - [control_flow.dart](Chapter%203%20-%20control_flow.dart)
+- Chapter 4 - Functions - [functions.dart](Chapter%204%20-%20functions.dart)
 
 ## Getting Started
 
